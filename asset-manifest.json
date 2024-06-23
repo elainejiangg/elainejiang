@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b108fae7.css",
-    "main.js": "/static/js/main.1210e69b.js",
-    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.0eaf807b1cf0eceabe0f.ttf",
-    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
-    "static/media/YoungSerif-Regular.ttf": "/static/media/YoungSerif-Regular.564996966d3552bf6282.ttf",
-    "static/media/DBT_mountsinai.png": "/static/media/DBT_mountsinai.391a066f63323cd19796.png",
-    "index.html": "/index.html",
-    "main.b108fae7.css.map": "/static/css/main.b108fae7.css.map",
-    "main.1210e69b.js.map": "/static/js/main.1210e69b.js.map"
+    "main.css": "/elainejiang/static/css/main.08be97ab.css",
+    "main.js": "/elainejiang/static/js/main.c1171401.js",
+    "static/media/Inter-Bold.ttf": "/elainejiang/static/media/Inter-Bold.0eaf807b1cf0eceabe0f.ttf",
+    "static/media/Inter-Regular.ttf": "/elainejiang/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/YoungSerif-Regular.ttf": "/elainejiang/static/media/YoungSerif-Regular.564996966d3552bf6282.ttf",
+    "static/media/DBT_mountsinai.png": "/elainejiang/static/media/DBT_mountsinai.391a066f63323cd19796.png",
+    "index.html": "/elainejiang/index.html",
+    "main.08be97ab.css.map": "/elainejiang/static/css/main.08be97ab.css.map",
+    "main.c1171401.js.map": "/elainejiang/static/js/main.c1171401.js.map"
   },
   "entrypoints": [
-    "static/css/main.b108fae7.css",
-    "static/js/main.1210e69b.js"
+    "static/css/main.08be97ab.css",
+    "static/js/main.c1171401.js"
   ]
 }
