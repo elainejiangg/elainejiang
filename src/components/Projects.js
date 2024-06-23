@@ -6,9 +6,7 @@ import { FaRegImage } from "react-icons/fa";
 const Projects = () => {
   return (
     <div className="projects-container">
-      <h2 id="projects" className="font-bold">
-        projects
-      </h2>
+      <h2 id="projects">projects</h2>
       <div className="projects-list">
         <div className="project-item">
           <div className="img-container">

@@ -24,7 +24,6 @@
   border: 1px solid lightslategray;
   border-radius: 4px 4px;
   margin-right: 50px;
-  margin-right: 5vw;
 }
 
 .project-item-text {
@@ -91,5 +90,21 @@ li {
 
   li {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-item {
+    margin-right: 0vw;
+    width: 90vw;
+  }
+  .projects-list {
+    margin-right: 0vw;
+    align-items: center;
+  }
+  .project-item-text {
+    padding-left: 0vw;
+    width: 60%;
+    overflow: scroll;
   }
 }

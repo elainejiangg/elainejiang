@@ -8,9 +8,7 @@ import { ImMail } from "react-icons/im";
 const Contact = () => {
   return (
     <div className="contact-container">
-      <h2 id="contact" className="font-bold">
-        contact
-      </h2>
+      <h2 id="contact">contact</h2>
       <p>Reach out to me at ejiang@mit.edu! :)</p>
       <p className="pb-1">Or check up what else I've been up to here:</p>
       <div className="icons-container">

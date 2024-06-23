@@ -4,9 +4,7 @@ import "./Resume.css";
 const Resume = () => {
   return (
     <div className="resume-container">
-      <h2 id="resume" className="font-bold">
-        resume
-      </h2>
+      <h2 id="resume">resume</h2>
       <a
         href="https://drive.google.com/uc?export=download&id=1ar1MihVLGIzloGW7GrS1FllhR4Bmal-p"
         download="ElaineJiang_Resume.pdf"
