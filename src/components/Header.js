@@ -16,7 +16,7 @@ const Header = () => {
       <nav className="header-right">
         <a
           href="#projects"
-          className="px-2 group transition-all duration-300 ease-in-out"
+          className="xs:px-2 px-1 group transition-all duration-300 ease-in-out"
         >
           <span class="bg-left-bottom bg-gradient-to-r from-blue-300 to-pink-200 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out hover:text-slate-400">
             projects
@@ -24,7 +24,7 @@ const Header = () => {
         </a>
         <a
           href="#skills"
-          className="px-2  group transition-all duration-300 ease-in-out"
+          className="xs:px-2  px-1 group transition-all duration-300 ease-in-out"
         >
           <span class="bg-left-bottom bg-gradient-to-r from-blue-300 to-pink-200 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out hover:text-slate-400">
             skills
@@ -32,7 +32,7 @@ const Header = () => {
         </a>
         <a
           href="#resume"
-          className="px-2 group transition-all duration-300 ease-in-out"
+          className="xs:px-2 px-1 group transition-all duration-300 ease-in-out"
         >
           <span class="bg-left-bottom bg-gradient-to-r from-blue-300 to-pink-200 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out hover:text-slate-400">
             resume
@@ -40,7 +40,7 @@ const Header = () => {
         </a>
         <a
           href="#contact"
-          className="px-2 group transition-all duration-300 ease-in-out"
+          className="xs:px-2 px-1 group transition-all duration-300 ease-in-out"
         >
           <span class="bg-left-bottom bg-gradient-to-r from-blue-300 to-pink-200 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out hover:text-slate-400">
             contact

@@ -68,3 +68,10 @@ header {
     display: flex; /* Show short name on small screens */
   }
 }
+
+@media (max-width: 480px) {
+  html {
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
+}
