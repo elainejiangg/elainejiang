@@ -45,7 +45,7 @@ p {
   padding-top: 0px;
 }
 
-/* max-width is for desk-top first design*/
+/* for viewing screens of <= 640 px*/
 @media (max-width: 640px) {
   h1 {
     font-size: 48px;
@@ -55,5 +55,11 @@ p {
   }
   p {
     font-size: 16px;
+  }
+}
+
+@media (max-height: 640px) {
+  .icons-container {
+    height: 50px;
   }
 }
