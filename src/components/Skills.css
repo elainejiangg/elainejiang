@@ -1,0 +1,30 @@
+.skills-container {
+  min-height: 100vh; /* 100% of the viewport height */
+  width: 100%; /* 100% of the viewport width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Inter;
+}
+
+.skills-flex {
+  margin-top: 4vh;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between; /* Distributes space between items */
+}
+
+.skill-item {
+  width: calc(50% - 10px); /* Calculates width to account for gap */
+  margin-bottom: 20px; /* Space between rows */
+  border: 1px solid black;
+  padding: 5vw;
+  border-radius: 5px 5px;
+}
+
+@media (max-width: 640px) {
+  .skills-flex {
+    margin-top: 1vh;
+  }
+}

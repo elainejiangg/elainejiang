@@ -1,0 +1,18 @@
+.resume-container {
+  min-height: 100vh; /* 100% of the viewport height */
+  width: 100%; /* 100% of the viewport width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Inter;
+}
+
+h2 {
+  font-family: YoungSerif;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: Interbold;
+  font-size: 20px;
+}

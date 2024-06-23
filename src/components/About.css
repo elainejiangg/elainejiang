@@ -1,0 +1,59 @@
+.about-container {
+  min-height: 100vh; /* 100% of the viewport height */
+  width: 100%; /* 100% of the viewport width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Inter;
+}
+
+h1 {
+  font-family: YoungSerif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: YoungSerif;
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.title-container {
+  padding-bottom: 10px;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  height: 8.5vh;
+  overflow: visible;
+  align-items: flex-end;
+}
+
+.icon {
+  width: 5vw;
+  height: 10vh;
+  min-width: 45px;
+  min-height: 45px;
+  max-width: 55px;
+  min-height: 55px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+/* max-width is for desk-top first design*/
+@media (max-width: 640px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,95 @@
+.projects-container {
+  min-height: 100vh; /* 100% of the viewport height */
+  width: 100%; /* 100% of the viewport width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Inter;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column; /* Aligns children as a column */
+  gap: 5vh; /* Adds space between the boxes */
+  padding-top: 2vh;
+  align-items: start;
+  margin-right: 5vw;
+}
+
+.project-item {
+  width: 70vw; /* Adjust width as needed */
+  padding: 4vh; /* Padding for content inside the boxes */
+  display: flex;
+  flex-direction: row;
+  border: 1px solid lightslategray;
+  border-radius: 4px 4px;
+  margin-right: 50px;
+  margin-right: 5vw;
+}
+
+.project-item-text {
+  padding-left: 1vw;
+  padding-top: 1vw;
+  width: 40%;
+  overflow: scroll;
+}
+
+h3 {
+  font-family: YoungSerif;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.img-container {
+  width: 32vw;
+  height: auto;
+  max-width: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  margin-right: 0.5vh;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 14px;
+  border: 1px solid lightslategray;
+  border-radius: 4px 4px;
+  color: lightslategray;
+}
+
+.placeholder {
+  padding-left: 10px;
+  width: 26vw;
+  height: auto;
+  max-width: 210px;
+}
+
+/* for viewing screens of <= 640 px*/
+@media (max-width: 640px) {
+  p {
+    font-size: 14px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 12px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+}

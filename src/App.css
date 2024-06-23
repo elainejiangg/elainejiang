@@ -1,0 +1,11 @@
+html {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  padding-top: 10vh; /* Adjust based on the header's relative size to the viewport */
+  margin-top: -10vh; /* Negative margin equal to the padding */
+  display: block; /* Ensures the h2 can apply margin and padding */
+}

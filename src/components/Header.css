@@ -1,0 +1,70 @@
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding-top: 16px;
+  z-index: 100;
+  height: 50px;
+  font-family: YoungSerif;
+  font-size: 16px;
+}
+
+/* .other-sections {
+  font-family: InterBold;
+} */
+
+.header-left {
+  flex: 1; /* Takes up space but pushes other items to the right */
+  display: flex;
+  align-items: center; /* Ensures vertical centering within this section */
+}
+
+.header-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+  align-items: center;
+}
+
+.short-name {
+  display: none; /* Hide short name by default */
+  font-size: 16px;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+  color: #000;
+  text-decoration: none;
+  overflow: hidden; /* Ensures the pseudo-element does not extend outside the link */
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Full width on hover */
+}
+
+/* for small screen: 640px or less */
+@media (max-width: 640px) {
+  .full-name {
+    display: none; /* Hide full name on small screens */
+  }
+  .short-name {
+    display: flex; /* Show short name on small screens */
+  }
+}
