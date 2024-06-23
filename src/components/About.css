@@ -45,6 +45,10 @@ p {
   padding-top: 0px;
 }
 
+#title-caption {
+  padding-top: 8.5vh;
+}
+
 /* for viewing screens of <= 640 px*/
 @media (max-width: 640px) {
   h1 {
@@ -61,5 +65,8 @@ p {
 @media (max-height: 640px) {
   .icons-container {
     height: 50px;
+  }
+  #title-caption {
+    padding-top: 7vh;
   }
 }
